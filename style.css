@@ -1,0 +1,138 @@
+html{
+    color-scheme: dark;
+}
+
+*{
+    margin: 0;
+    box-sizing: content-box;
+   
+}
+
+ .container{
+    width: 100%;
+    max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.calc {
+    margin-top: 30px;
+    width: 330px;
+    height: 500px;
+    background-color:magenta;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px darkblue;
+    
+}
+
+#output-screen {
+    margin-top: 20px;
+    width: 300px;
+    height: 120px;
+    background:blueviolet;
+    border-radius: 30px ;
+    margin-left: 15px;
+    margin-bottom: 50px;
+ box-shadow: 0px 0px 5px 5px gray;
+    font-size: 30px;
+  
+}
+#equal {
+    
+    width: 52px;
+    height: 25px;
+    border-radius: 40px;
+    background-color: blueviolet;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 17px; 
+    transition: 1s;
+
+   
+}
+#equal:hover {
+    transform: scale(1.1);
+    color: red;
+    background: gray;
+}
+#buttons1 {
+    width: 52px;
+    height: 25px;
+    border-radius: 40px;
+    background-color:orangered;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white; 
+    font-weight: 900;
+    font-size: 17px;  
+    font-size: 17px; 
+    transition: 1s;
+}
+#buttons1:hover {
+    transform: scale(1.1);
+    color: red;
+    background: gray;
+}
+#buttons2 {
+    width: 52px;
+    height: 25px;
+    border-radius: 40px;
+    background-color:saddlebrown;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white; 
+    font-weight: 900;
+    font-size: 17px;  
+    font-size: 17px; 
+    transition: 1s;
+}
+#buttons2:hover {
+    transform: scale(1.1);
+    color:green;
+    background: gray;
+}
+#buttons{
+    width: 55px;
+    height: 35px;
+    border-radius: 40px;
+    background-color:gray;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    color:black; 
+    font-weight: 900;
+    font-size: 20px; 
+    font-size: 17px; 
+    transition: 1s;
+}
+#buttons:hover {
+    transform: scale(1.1);
+    color: red;
+    background: gray;
+}
+#buttons3{
+    width: 52px;
+    height: 25px;
+    border-radius: 40px;
+    background-color:saddlebrown;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white; 
+    font-weight: 900;
+    font-size: 17px;  
+    font-size: 17px; 
+    transition: 1s;
+}
+#buttons3:hover {
+    transform: scale(1.1);
+    color:green;
+    background: gray;
+}
